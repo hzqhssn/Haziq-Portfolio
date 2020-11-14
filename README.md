@@ -1,3 +1,3 @@
-Haziq Hassan Portfolio Website
+Code For My Portfolio Website
 
 http://hzq.io/
