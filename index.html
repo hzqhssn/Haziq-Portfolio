@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haziq Hassan Portfolio Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        </head>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  
+
+      
+  <div class="header">
+    <a href="" class="logo">HH</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li><a data-page="intro" href="#intro">Home</a></li>
+        <li><a data-page="services" href="#services" >Skills</a></li>
+       <!-- <li><a data-page="about" href="#about">About Me</a></li>-->
+        <li><a data-page="portfolio" href="#portfolio" >Portfolio</a></li>
+        <li><a data-page="contact" href="#contact" >Contact</a></li>
+        <span id="navActive" class="nav-active"></span>
+    </ul>
+    
+</div>
+
+<div class="bgparticles" id="particles-js">  
+</div>
+
+  <body>
+  
+      
+      
+  
+     
+    <!----------------------------------- Introduction text ----------------------------->
+
+    <section class="intro" id="intro">
+        <h1 class="section__title section__title--intro">Hi, I am</h1>
+        <h1 class="name" id="line"></h1>
+        <div class="wrapper">
+          <h2 class="sentence">
+            I like to design and build
+            <div class="slidingVertical">
+              <span>games.</span>
+              <span>software.</span>
+              <span>websites.</span>
+              <span>things.</span>
+            </div>
+          </h2>
+
+          
+
+        </div>
+       
+        
+      </section>
+    <!---------------------------------- My services -------------------------------------->
+    <section class="services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+
+        <div class="service">
+          <h3>Game Development</h3>
+          <p>
+          I like playing and making games. I have successfuly made games using Unreal engine and Unity3D.
+          Some of which have more than a million downloads
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+            <h3>Mobile Development</h3>
+            <p>
+             I have  made native mobile applications as well as mobile games using Unity3D.
+            </p>
+          </div>
+          <!-- / service -->
+
+          <div class="service">
+            <h3>Web Development</h3>
+            <p>
+             I have experience in HTML, CSS, Javascript, and React in making web Applications.
+            </p>
+          </div>
+          <!-- / service -->
+    </section>
+
+
+    <!------------------------------------------------ My Portfolio --------------------------------->
+    <section class="portfolio" id="portfolio">
+      <h2 class="section__title section__title--work">Projects</h2>
+     
+
+     
+      <div class="portfolio_grid" >
+        <!--  LM Portfolio -->
+        <a
+          href="https://www.luminantmusic.com/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/luminant-white-logo.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+            <source src="video/LMM.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </a>
+        <!--  LM Portfolio -->
+        
+        <!--  FungoGolf Portfolio -->
+        <a
+          href="https://play.google.com/store/apps/details?id=com.jiggygames.fungogolf&hl=en"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/FungoGolf_icon.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+            <source src="video/FungoGolf.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </a>
+        <!--  FungoGolf Portfolio -->
+
+        <!--  Love Cake Maker Portfolio -->
+        <a
+          href="https://www.microsoft.com/en-us/p/love-cake-maker-kids-cooking-event-decorating/9nblggh318cr?activetab=pivot:overviewtab"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/LCM_icon.png"
+            alt=""
+            class="portfolio__logo"
+          />
+          <img
+            src="img/Portfolio_imgs/LCM_Poster.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--  Love Cake Maker Portfolio -->
+
+        <!--  OffRoad Tourist Coach Bus -->
+        <a
+          href="https://play.google.com/store/apps/details?id=com.vg.offroadtouristbusdriver"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/ORT_icon.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <img
+            src="img/Portfolio_imgs/ORT_poster.webp"
+            alt=""
+            height="100%"
+            class="portfolio__img"
+          />
+        </a>
+        <!--  OffRoad Tourist Coach Bus -->
+
+        <!--  TruckSimulator2016 Portfolio -->
+        <a
+          href="https://play.google.com/store/apps/details?id=com.gls.TruckSimulator2016"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/GT_icon.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+            <source src="video/GT_poster.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </a>
+        <!--  TruckSimulator2016 Portfolio -->
+
+        <!--  Emergency Room Portfolio -->
+        <a
+          href="https://play.google.com/store/apps/details?id=com.wpl.urban.firerescue.cityemergency"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/ER_icon.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <img
+            height="100%"
+            src="img/Portfolio_imgs/ER_poster.webp"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--  Emergency Room Portfolio -->
+
+        <!--  Wild Horse Portfolio -->
+        <a
+          href="https://play.google.com/store/apps/details?id=com.whiplash.wild.run.horse.crazy"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/WH_icon.webp"
+            alt=""
+            class="portfolio__logo"
+          />
+          <img
+            src="img/Portfolio_imgs/WH_poster.webp"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--  Wild Horse Portfolio -->
+
+        <!--  My Little Doctor Portfolio -->
+        <a
+          href="https://www.microsoft.com/en-us/p/my-little-doctor-kids-patient-hospital-care/9nblggh2k0cf?activetab=pivot:overviewtab#"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/Portfolio_imgs/MLD_icon.png"
+            alt=""
+            class="portfolio__logo"
+          />
+          <img
+            src="img/Portfolio_imgs/MLD_poster.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--  My Little Doctor Portfolio -->
+
+        <!--  TruckSimulator2016 Portfolio -->
+        <a class="portfolio__item">
+          <img
+            src="img/Portfolio_imgs/ARKit_icon.jpg"
+            alt=""
+            class="portfolio__logo"
+          />
+          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+            <source src="video/ARKitDemo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </a>
+        <!--  TruckSimulator2016 Portfolio -->
+   </div>
+    </section>
+
+    <!----------------------- Contact Form --------------------------->
+    <section class="contact" id="contact">
+    <form class="my-form">
+        <div class="container">
+          <h1>Get in touch!</h1>
+          <ul>
+            <li>
+              <div class="grid grid-2">
+                <input type="text" placeholder="Name" required>  
+                <input type="text" placeholder="Surname" required>
+              </div>
+            </li>
+            <li>
+              <div class="grid grid-2">
+                <input type="email" placeholder="Email" required>  
+                <input type="tel" placeholder="Phone">
+              </div>
+            </li>    
+            <li>
+              <textarea placeholder="Message"></textarea>
+            </li>   
+            <li>
+              <div class="grid grid-3">
+                <button class="btn" type="submit" >
+                    SUBMIT
+                </button>
+              </div>
+            </li>    
+          </ul>
+        </div>
+    </form>
+    </section>
+        <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:mail@hzq.io" class="footer__link">mail@hzq.io</a>
+        <ul class="social-list">
+          
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/haziq-hassan/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/hzqhssn">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+      </form>
+    <script src="js/index.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>
