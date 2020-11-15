@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haziq Hassan Portfolio Website</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
@@ -38,9 +38,9 @@
     <ul class="menu">
         <li><a data-page="intro" href="#intro">Home</a></li>
         <li><a data-page="services" href="#services" >Skills</a></li>
-       <!-- <li><a data-page="about" href="#about">About Me</a></li>-->
         <li><a data-page="portfolio" href="#portfolio" >Portfolio</a></li>
         <li><a data-page="contact" href="#contact" >Contact</a></li>
+           <li><a style="color:white" href="http://hzq.io/resume.pdf">Resume</a></li>
         <span id="navActive" class="nav-active"></span>
     </ul>
     
@@ -84,8 +84,9 @@
         <div class="service">
           <h3>Game Development</h3>
           <p>
-          I like playing and making games. I have successfuly made games using Unreal engine and Unity3D.
-          Some of which have more than a million downloads
+          I like playing games and enjoy coding them too. I have successfuly built games using Unreal engine and Unity3D. Succesfully developed and launched titles using VR/AR and multiplayer technology, integrating third-party SDK's and API's.
+          Some of which have more than a million downloads.
+          
           </p>
         </div>
         <!-- / service -->
@@ -93,7 +94,7 @@
         <div class="service">
             <h3>Mobile Development</h3>
             <p>
-             I have  made native mobile applications as well as mobile games using Unity3D.
+            Developed, programmed and launched android  applications using latest technologies while ensuring the highes level of quality. I have deployed applications on the Google Play Store as well and Apple and Amazon mobile store.
             </p>
           </div>
           <!-- / service -->
@@ -101,7 +102,7 @@
           <div class="service">
             <h3>Web Development</h3>
             <p>
-             I have experience in HTML, CSS, Javascript, and React in making web Applications.
+             I have experience in HTML, CSS, Javascript, and React. I enjoy making websites that are simple, elegent and intuitive. I take the extra steps to ensure the highest quality of work while being optimized for different devices.
             </p>
           </div>
           <!-- / service -->
@@ -126,7 +127,7 @@
             alt=""
             class="portfolio__logo"
           />
-          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+          <video id="video" alt="" class="portfolio__img" playsinline autoplay loop muted>
             <source src="video/LMM.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -144,7 +145,7 @@
             alt=""
             class="portfolio__logo"
           />
-          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+          <video id="video" alt="" class="portfolio__img" playsinline  autoplay loop muted>
             <source src="video/FungoGolf.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -201,7 +202,7 @@
             alt=""
             class="portfolio__logo"
           />
-          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+          <video id="video" alt="" class="portfolio__img" playsinline autoplay loop muted>
             <source src="video/GT_poster.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -273,7 +274,7 @@
             alt=""
             class="portfolio__logo"
           />
-          <video id="video" alt="" class="portfolio__img" autoplay loop muted>
+          <video id="video" alt="" class="portfolio__img" playsinline autoplay loop muted>
             <source src="video/ARKitDemo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -284,7 +285,7 @@
 
     <!----------------------- Contact Form --------------------------->
     <section class="contact" id="contact">
-    <form class="my-form">
+    <form class="my-form" action="mailto:mail@hzq.io" method="post" enctype="text/plain">
         <div class="container">
           <h1>Get in touch!</h1>
           <ul>
@@ -316,7 +317,6 @@
     </section>
         <!-- Footer -->
     <footer class="footer">
-        <!-- replace with your own email address -->
         <a href="mailto:mail@hzq.io" class="footer__link">mail@hzq.io</a>
         <ul class="social-list">
           
